@@ -236,8 +236,8 @@ def bot(token, gid, raidmessage, raidkeyboard):
 
                             )
                             continue
-            except:
-                pass
+            except Exception as e:
+                print(str(e))
 
 
 
